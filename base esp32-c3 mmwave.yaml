@@ -1,5 +1,5 @@
 esphome:
-  name: EPS
+  name: eps
   friendly_name: EPS
   comment: Everything Presence sven
   name_add_mac_suffix: true
