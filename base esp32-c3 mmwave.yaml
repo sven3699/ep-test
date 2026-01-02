@@ -57,3 +57,6 @@ web_server:
 time:
   - platform: sntp
     id: time_now
+
+packages:
+  LD2450: github://sven3699/ep-test/esphome_ld2450.yaml
