@@ -1,8 +1,9 @@
 esphome:
-  name: epgang
+  name: EPS
+  friendly_name: EPS
   comment: Everything Presence sven
-  friendly_name: epgang
-  project: 
+  name_add_mac_suffix: true
+    project: 
     name: EverythingSmartTechnology.Everything Presence Lite
     version: "1.4.1"
   on_boot: 
@@ -46,7 +47,7 @@ wifi:
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: " epgang Fallback Hotspot"
+    ssid: " eps Fallback Hotspot"
     password: !secret wifi_password
 
 web_server:
@@ -56,8 +57,3 @@ web_server:
 time:
   - platform: sntp
     id: time_now
-
-# Enable Home Assistant API
-api:
-  encryption:
-    key: 
