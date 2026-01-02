@@ -3,7 +3,7 @@ esphome:
   friendly_name: EPS
   comment: Everything Presence sven
   name_add_mac_suffix: true
-    project: 
+  project: 
     name: EverythingSmartTechnology.Everything Presence Lite
     version: "1.4.1"
   on_boot: 
